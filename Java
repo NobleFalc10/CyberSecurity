@@ -84,4 +84,30 @@ public class Main
 }
 
 
+/* Parcali bir fonksiyonun kullanicinin girdigi x degerine gore
+goruntusunu yaziran program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+		double x;
+		
+		    System.out.print("Ondalikli x degeri giriniz: ");
+		    x=giris.nextDouble();
+		    
+		    if(x<0)
+		    System.out.println("x<0 icin f(x)= "+Math.abs((x-1)*2/3));
+		    
+		    else if(x>0)
+		    System.out.println("x>0 icin f(x)= "+Math.abs((x+1)*2/3));  // neden direk 2/3 u kabul etmedi ??
+		    
+		    else
+		    System.out.println("x=0 icin f(x)= "+Math.sqrt(x+(2/3))); // ?? x=0 ??
+	}
+}
+
+
+
 

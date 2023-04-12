@@ -175,6 +175,26 @@ public class Main
 }
 
 
+/* Klavyeden girilen bir tam sayinin tek mi cift mi
+ oldugunu gosteren program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+		int a;
+		
+		System.out.print("Sayiyi giriniz:");
+		a=giris.nextInt();
+		
+		if(a%2==0)
+		    System.out.println("Girdiginiz sayi CIFT'tir.");
+		else
+		    System.out.println("Girdiginiz sayi TEK'tir.");
+	}
+}
+
 
 
 

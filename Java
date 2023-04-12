@@ -175,7 +175,7 @@ public class Main
 }
 
 
-/* Klavyeden girilen bir tam sayinin tek mi cift mi
+/* Klavyeden girilen bir tam sayinin tek mi cift mi  					
  oldugunu gosteren program */
 
 import java.util.Scanner;
@@ -195,6 +195,26 @@ public class Main
 	}
 }
 
+
+/* 10-100 arasinda uretilen rastgele bir tam sayinin tek mi cift mi
+ oldugunu gosteren program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+		int a=(int)(Math.random()*90+10);
+		
+		System.out.println("Uretilen sayi:"+a);
+		
+		
+		if(a%2==0)
+		    System.out.println("Girdiginiz sayi CIFT'tir.");
+		else
+		    System.out.println("Girdiginiz sayi TEK'tir.");
+	}
+}
 
 
 

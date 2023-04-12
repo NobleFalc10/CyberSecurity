@@ -242,3 +242,27 @@ public class Main
 }
 
 
+/* 1'den N'e kadar olan sayilarin for kullanarak
+ toplamini bulan program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner giris= new Scanner (System.in);
+	   int n,toplam=0;
+	   
+	   System.out.print("Kaca kadar olan sayilarin");
+	   System.out.println(" toplamini bulmak istiyorsunuz ?");
+	   
+	   n=giris.nextInt();
+	   
+	    for (int i=0;i<=n;i++)
+	  {
+	       toplam+=i;  
+	  }
+	        System.out.println("Toplam = "+toplam);
+	}
+}
+
+

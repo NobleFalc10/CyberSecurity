@@ -1,0 +1,87 @@
+/* switch'i kullanarak kullanicidan alinan 2 tam sayiya 4 islem yaptıran program */
+
+    import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner(System.in);
+		int x,y,toplam,fark,carpim,bolum,secim;
+		
+		System.out.println("yapmak istediginiz islemi seciniz.");
+		
+		secim=giris.nextInt();
+		
+		switch(secim)
+		{
+		case 1: x=giris.nextInt();
+		        y=giris.nextInt();
+		        toplam=x+y;
+		        System.out.println("Sonuc="+toplam);
+		        break;
+		
+		case 2: x=giris.nextInt();
+		        y=giris.nextInt();
+		        fark=x-y;
+		        System.out.println("Sonuc="+fark);
+		        break;
+		        
+		case 3: x=giris.nextInt();
+		        y=giris.nextInt();
+		        carpim=x*y;
+		        System.out.println("Sonuc="+carpim);
+		        break;
+		        
+		case 4: x=giris.nextInt();
+		        y=giris.nextInt();
+		        bolum=x/y;
+		        System.out.println("Sonuc="+bolum);
+		        break;
+		
+		default:
+		        System.out.println("CİKİS YAPTİNİZ");
+		        break;
+		}
+		
+	}
+}
+
+/* Ogrencinin notlarını kullanicidan alan,ortalamasini hesaplayan ve harf notunu gosteren program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner klavye= new Scanenr(System.in);
+	   
+	   int not,notadedi=0,toplam=0;
+	   double ort;
+	   
+	   System.out.println("Kac adet not gireceksiniz ?")
+	   notadedi=klavye.nextInt();
+	   
+	   for (int i=0;i<notadedi;i++)
+	   {
+	       not=klavye.nextInt();
+	       toplam+=not;
+	   }
+	     
+	     ort=toplam/notadedi;
+	     
+	     if(ort==100)
+	     System.out.println("Aferin!");
+	     
+	     else if(ort>=85 && ort<100)
+	     System.out.println("Bravo");
+	     
+	     else if(ort>=70 && ort<85)
+	     System.out.println("Canin sag olsun.");
+	     
+	     else
+	     System.out.println("Daha fazla gayret etmen lazim...");
+	     
+	   
+	}
+}
+
+
+

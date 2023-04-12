@@ -266,3 +266,40 @@ public class Main
 }
 
 
+/* Kullanicin girdigi gun sayisi ve gunluk sicaklik degerleriyle
+ ortalama sicakligi hesaplayan program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner giris= new Scanner(System.in);
+	   
+	   int derece,toplam=0,gunsayisi=0,gun=0;  // gun sayisini tanımlamaya gerek var mi ?
+	   double ortalama;
+	   
+	    System.out.print("Girmek istediginiz gun sayisini giriniz: ");
+	    gunsayisi=giris.nextInt();
+	    
+	    while(gun<gunsayisi)
+	    {
+	        System.out.println();
+	        System.out.print(gun+1+". Gun ortalama sicakligi giriniz: ");
+	        derece=giris.nextInt();
+	            toplam+=derece;
+	            gun++;
+	    }
+	    
+	    if(gunsayisi!=0)  // boylesi daha şık duruyor. ;)
+	   {
+	        ortalama=(double) toplam/gunsayisi;
+	        System.out.println();
+	        System.out.println(gunsayisi+ " gunluk sicaklik ortalamasi = "+ortalama);
+	   }          
+	    else
+	        System.out.println("Gecersiz gun sayisi girdiniz...");
+	   
+	}
+}
+
+

@@ -147,5 +147,34 @@ public class Main
 }
 
 
+/* Klavyeden girilen bir a sayisinin yine klavyeden girilen
+ bir b sayisina bolunup bolunmedigini gosteren program */
+
+ import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+		
+		int a,b;
+		
+		System.out.print("İlk sayiyi giriniz: ");
+		a=giris.nextInt();
+		
+		System.out.println("İkinci sayiyi giriniz: ");
+		b=giris.nextInt();
+		
+		if (a%b==0)
+		    System.out.println(+a"sayisi,"+b"sayisina tam bolunur.");
+		else
+		    System.out.println(+a"sayisi,"+b"sayisina tam bolunmez.");
+		    
+		    // println in icine nasıl sayi yazilir ??
+		    
+	}
+}
+
+
+
 
 

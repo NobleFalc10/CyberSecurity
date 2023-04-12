@@ -109,5 +109,43 @@ public class Main
 }
 
 
+/* Kullanicinin girdigi urunun KDV oranini ekrana ayzdiran program */
+
+    import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		
+		Scanner giris= new Scanner (System.in);
+		char A,B,C,D,E,F,G,H,diger;           // dizi ile ???
+		char x;                               // veya aynı KDV oranina sahip olanlari bir degiskene atamak
+		                                        // x' i Sring olarak belirlesek ??
+		    System.out.println("Malzemenin adini giriniz:");
+		    x=giris.nextLine().charAt(0);
+		    
+		switch(x)
+		{
+		    case 'A': System.out.println("KDV oraniniz %1 dir.");break;
+		    
+		    case 'B': System.out.println("KDV oraniniz %1 dir. ");break;
+		    
+		    case 'C': System.out.println("KDV oranininz %1 dir.");break;
+		    
+		    case 'D': System.out.println("KDV oraniniz %8 dir.");break;
+		    
+		    case 'E': System.out.println("KDV oraniniz %8 dir.");break;
+		    
+		    case 'F': System.out.println("KDV oraniniz %8 dir.");break;
+		    
+		    case 'G': System.out.println("KDV oraniniz %18 dir.");break;
+		    
+		    case 'H': System.out.println("KDV oraniniz %18 dir.");break;
+		    
+		    default: System.out.println("KDV oraniniz %25 dir.");break;
+		}
+	}
+}
+
+
 
 

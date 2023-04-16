@@ -317,3 +317,20 @@ public class Main
 }
 
 
+
+/* for dongusu icinde char kullanimi */
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		   int i=1;
+		for (char x='a';x<='e';x++ ) // mantıgini anla
+		{
+		    System.out.println("Alfabenin " +i+ ".harfi= "+x);
+		    i++;
+		}
+	
+	}
+}
+

@@ -399,3 +399,15 @@ public class Main
 	
 }
 
+
+/* while dongusunu kullanarak girilen sayiya kadar olan
+ sayilarin karesini bulan program */
+ 
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	
+}
+

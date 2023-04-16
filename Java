@@ -411,3 +411,16 @@ public class Main
 	
 }
 
+
+/* Kullanicin girdigi sayiya gore * sembolu ile
+ dikdortgen ve baklava dilimi sekli yapan program */ 
+ 
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	
+}
+
+

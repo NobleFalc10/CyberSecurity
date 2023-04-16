@@ -446,4 +446,16 @@ public class Main
 }
 
 
+/* Kullanicinin girdigi bir sozcugun Palindrom
+ olup olmadigini denetleyen program */ 
+ 
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	
+}
+
+
 

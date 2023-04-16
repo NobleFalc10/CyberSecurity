@@ -511,4 +511,51 @@ public class Main
 
 
 
+/* Kullanici tarafindan girilen bir dizinin elemanlarinin
+ toplamini yazdiran program */
+ 
+ public class Main
+{
+	public static void main(String[] args) {
+		
+	
+}
+
+
+
+/* Dizinin boyutunu LENGTH ile alma */
+
+
+/* Klavyeden girilen sayilari diziye aktarma (Length ile)
+
+
+/* Diziden dizeye aktarim (Dizi kopyalama) */
+
+
+
+/* Klavyeden girilen sayilarin tek mi cift mi oldugunu belirleyen
+ ve listeleyen program (dizi mantigi ile). Kullaniciya kac sayi girmek
+ istedigi sorulacak */
+ 
+ 
+ /* Klavyeden giirlen tam sayi Dizisinin elemanlarini tersten yazdiran program */
+ 
+ 
+ 
+ /* Dizinin elemanlarini buyukten kucuge ve kucukten buyuge dogru
+  siralayan gosteren, nümerik siralama */
+  
+  
+ 
+ /* Dizinin elemanlarini buyukten kucuge kucukten buyuge dogru
+  siralayan, alfabetik siralama */
+  
+  
+  /* Uygulama---> Araba model vs */
+  
+  
+  
+  /*
+ 
+
 

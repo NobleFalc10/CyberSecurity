@@ -458,4 +458,57 @@ public class Main
 }
 
 
+/* Dizinin elemanlarini statik tanimlayarak
+ yazdiran program */
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int dizi []={1,6,-3,11,22};
+		
+		for (int i=0;i<5;i++)
+		{
+		    System.out.println(i+1 +". eleman= " + dizi[i] + "'dir.");
+		}
+		
+	}
+}
+
+
+/* Dizinin elemanlarini kullanicidan alarak (dinamik)
+ yazdiran program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+	    
+	    int A[]= new int [4];
+		
+		for (int i=0;i<4;i++)
+		{
+		    A[i]=giris.nextInt();
+		    System.out.println(i+1 +". eleman= " + A[i] + "'dir.");
+		}
+		
+	}
+}
+
+
+
+/* Sisteme girilen kisilerin isimlerini ve yaslarini 
+ alan ve yazdiran program */
+ 
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	
+}
+
+
+
 

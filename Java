@@ -551,11 +551,36 @@ public class Main
   siralayan, alfabetik siralama */
   
   
+  /* Cok boyutlu diziler */
+  
+  
+  
   /* Uygulama---> Araba model vs */
   
   
   
-  /*
+  /* Elemeanlari disaridan girilen nxn iki matrisin esit olup olmadigini
+   bulan program */
+   
+   
+   
+   /* Kullanicinin girdigi sayilarin Aritmetik,Geometrik ve Harmonik
+    ortalamasini bulan ve ekrana yazdiran program */
+    
+    
+   
+   /* SELECTION SORT */
+--> dİZİNİN ELELMANlarini siralamk icin bir cok algoritma vardir. Selection sort bunlardan biridir.
+
+---> 1. adim: Dizinin ilk elemani alinir ve diger elemanlarla kiyaslanir.
+     2. adim: Istenilene gore yer degistirilir.
+     3. adim: 3. eleman 4. ile kiyaslanir.  // 52:50   secme-siralama   --boya -kutu   --Temporary
+     
+ /* Dizinin en buyuk,en kucuk ve kacinci sirada olduklarini(yerlerini) yazdiran program */ 
+ 
+ 
+ 
+ 
  
 
 

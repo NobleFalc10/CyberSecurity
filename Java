@@ -334,3 +334,15 @@ public class Main
 	}
 }
 
+
+/* Random 2 tane zar attiran program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		
+		
+	}
+}
+

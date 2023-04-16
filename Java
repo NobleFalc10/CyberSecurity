@@ -362,3 +362,29 @@ public class Main
 }
 
 
+/* Kullanicin girdigi sayiya gore * sembolunden olusan
+ bir dik ucgen yazdiran program */
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner giris= new Scanner (System.in);
+		int sayi;
+		    
+		    System.out.print("Bir sayi giriniz: ");
+		    sayi=giris.nextInt();
+		    System.out.println();
+		    
+		    for(int i=0;i<sayi;i++)
+		    {
+		        for (int j=0;j<=i;j++)
+		        {
+		            System.out.print("*");  // yan yana yazdirdigimiz icin
+		        }
+		        System.out.println();
+		    }
+		
+	}
+}
+

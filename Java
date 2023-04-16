@@ -303,3 +303,17 @@ public class Main
 }
 
 
+/* for dongusune birden fazla komut atama */
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		for (int a=0,b=15; a<b ;a++,b--)
+		{
+		    System.out.println(a+" degeri " +b+ " den kucuktur.");
+		}
+	}
+}
+
+
